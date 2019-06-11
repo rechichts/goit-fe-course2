@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li {
+    display: inline-block
+}
+li:hover {
+    color: red
+}
+.task2 {
+    width: 470px;
+    margin: 20px;
+}
+
+.head {
+    color: lightgray;
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+}
+h2 {
+    color: gray;
+    display: block;
+    margin: 0px 0px 20px 0px;
+}
+
+p {
+    color: gray;
+}
+
+.task3 {
+    width: 960px;
+    display: inline-block;
+}
