@@ -53,14 +53,14 @@ nav li a:hover {
     text-transform: uppercase;
 }
 .column h2 {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display' sans-serif;
     font-size: 30px;
     color:#626262;
     font-weight: 200;
     margin-bottom: 35px;
 }
 .text {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display' sans-serif;
     font-size: 14px;   
     color:#626262;
     margin-top: 20px;
@@ -78,7 +78,7 @@ button {
     border: 1px solid #626262;
     padding: 20px 35px;
     margin-bottom: 75px;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display' sans-serif;
     background-color: #ffffff;
     color: #626262;
 }
