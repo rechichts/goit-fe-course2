@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 1110px;
+    margin: auto;
+}
+.page-header {
+
+}
+.logo {
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #515151;
+}
+.logo::first-letter {
+    color: #1ABC9C;
+}
+.menu {
+    list-style: none;
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.menu li {
+    float: left;
+    margin-left:35px;
+}
+.menu a {
+    text-decoration: none;
+    color: #1ABC9C;
+}
+.menu a:hover {
+    color: 
+}
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+.title {
+    text-transform: uppercase;
+    color: #515151;
+    font-size: 48px;
+}
