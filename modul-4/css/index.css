@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -10,7 +10,7 @@
     width: 1110px;
     margin: auto;
 }
-.logo {
+h1 {
     text-decoration: none;
     float: left;
     font-size: 30px;
@@ -19,7 +19,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-.logo::first-letter {
+h1::first-letter {
     color: #1ABC9C;
     font-weight: 900;
 }
@@ -30,7 +30,7 @@
     margin-top: 10px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 .menu li {
     float: left;
@@ -50,8 +50,8 @@
 }
 h2 {
     text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
     color: #515151;
     font-size: 48px;
@@ -88,20 +88,24 @@ h2::after {
 }
 h4 {
     float: left;
-    padding: 15px;
+    padding: 10px;
     width: 200px;
     height: 40px;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 18px;
     background-color: #323232;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 .price {
     float: left;
-    padding: 15px;
+    padding: 10px;
     width: 55px;
     height: 40px;
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 18px;
     background-color: #959595;
 }
@@ -125,6 +129,7 @@ h4 {
 }
 h5 {
     font-family: "Open Sans", sans-serif;
+    font-weight: 600;
     font-size: 18px;
     color: #555252;
 }
@@ -140,6 +145,7 @@ p {
     display: inline-block;
     margin-top: 30px;
     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: #555252;
 }
