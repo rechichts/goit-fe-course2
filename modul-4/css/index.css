@@ -70,8 +70,6 @@ h2::after {
     margin-top: 95px;
 }
 .product img {
-    width: 255px;
-    height: 285px;
     background-color:#E9F0FD;
 }
 .product {
@@ -122,10 +120,6 @@ h3 {
 }
 .column:not(:nth-child(3n)) {
     margin-right: 35px;
-}
-.column img {
-    width: 350px;
-    height: 260px;
 }
 h4 {
     font-family: "Open Sans", sans-serif;
