@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -86,7 +86,7 @@ h2::after {
 .card {
     margin-top: -7px;
 }
-h4 {
+h3 {
     float: left;
     padding: 10px;
     width: 200px;
@@ -109,7 +109,7 @@ h4 {
     font-size: 18px;
     background-color: #959595;
 }
-.product:hover h4 {
+.product:hover h3 {
     background-color: #1abc9c;
 }
 
@@ -127,13 +127,13 @@ h4 {
     width: 350px;
     height: 260px;
 }
-h5 {
+h4 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #555252;
 }
-h5::after {
+h4::after {
     content: '';
     display: block;
     width: 135px;
@@ -149,14 +149,18 @@ p {
     font-size: 14px;
     color: #555252;
 }
-button {
+.button {
     display: block;
-    width: 155px;
-    height: 55px;
+    width: 160px;
+    height: 50px;
     font-size: 16px;
     border: 1px solid #4ec6ab;
     margin-top: 20px;
     font-family: "Open Sans", sans-serif;
+    font-weight: 300;
     background-color: #4ec6ab;
     color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
 }
