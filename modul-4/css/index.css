@@ -9,9 +9,11 @@
 .wrapper {
     width: 1110px;
     margin: auto;
-    margin-top: 40px;
 }
-h1 {
+.page-header {
+    padding-top: 40px;
+}
+.logo {
     text-decoration: none;
     float: left;
     font-size: 30px;
@@ -20,7 +22,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-h1::first-letter {
+.logo::first-letter {
     color: #1ABC9C;
     font-weight: 900;
 }
@@ -33,6 +35,7 @@ h1::first-letter {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
+
 .menu li {
     float: left;
     margin-right:35px;
@@ -106,14 +109,14 @@ h2::after {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 18px;
-    background-color: #959595;
+    background-color: rgba(50, 50, 50, 0.5);
 }
 .product:hover h3 {
     background-color: #1abc9c;
 }
 
 .product:hover span {
-    background-color: #7fd9c7;
+    background-color: rgba(26, 188, 156, 0.5);
 }
 .blog {
     margin-top: 80px;
@@ -161,4 +164,8 @@ p {
     text-decoration: none;
     text-align: center;
     padding: 15px;
+    border-radius: 5px;
+}
+.news {
+    padding-bottom: 40px;
 }
