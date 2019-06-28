@@ -13,16 +13,18 @@
 .page-header {
     padding-top: 40px;
 }
+.logotype {
+    float: left;
+}
 .logo {
     text-decoration: none;
-    float: left;
     font-size: 30px;
     text-transform: uppercase;
     color: #515151;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-.logo::first-letter {
+.logotype::first-letter {
     color: #1ABC9C;
     font-weight: 900;
 }
@@ -96,7 +98,6 @@ h2::after {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 18px;
-    background-color: #323232;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
@@ -109,14 +110,13 @@ h2::after {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 18px;
-    background-color: rgba(50, 50, 50, 0.5);
+    background-color: rgba(255, 255, 255, 0.44);
 }
-.product:hover h3 {
+.card {
+    background-color: #323232;
+}
+.product:hover .card {
     background-color: #1abc9c;
-}
-
-.product:hover span {
-    background-color: rgba(26, 188, 156, 0.5);
 }
 .blog {
     margin-top: 80px;
