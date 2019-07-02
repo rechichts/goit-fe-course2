@@ -59,10 +59,8 @@
 }
 .slider {
     position: relative;
-    width: 1600px;
     height: 600px;
     margin: auto;
-    padding-top: 35px;
 }
 .slider-ctrl {
     position: absolute;
@@ -106,8 +104,6 @@
 .overlay {
     width: 1600px;
     height: 600px;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
     top: 0;
     left: 0;
 } 
@@ -115,8 +111,6 @@
     position: absolute;
     font-size: 60px;
     font-weight: 900;
-    top: 30%;
-    left: 25%;
 }
 .text {
     position: absolute;
@@ -132,7 +126,6 @@
     text-transform: uppercase;
     color: #515151;
     font-size: 48px;
-    margin-top: 100px;
 }
 .heading::after {
     content: '';
@@ -146,7 +139,6 @@
     padding-top: 80px;
     width: 1110px;
     margin: auto;
-
 }
 .product img {
     display: block;
