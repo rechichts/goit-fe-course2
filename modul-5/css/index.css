@@ -7,11 +7,12 @@
 }
 .wrapper {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 .page-header {
-    margin: 0px 245px;
-    padding: 40px 0px;   
+    width: 1110px;
+    margin: auto;
+    padding: 40px 0px;
 }
 .logotype {
     float: left;
@@ -59,9 +60,7 @@
 .slider {
     position: relative;
     height: 600px;
-    width: 100%;
-   margin-bottom: 100px;
-
+    margin-bottom: 100px;
 }
 .button-wrapper {
     width: 1100px;
@@ -84,7 +83,6 @@
 .button-ctrl:focus {
   background-color: rgba(26, 188, 156, 0.5);
 }
-
 .button-ctrl-prev {
     float: left;
     background-image: url(../img/arrow-prev.png);
@@ -97,7 +95,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .background_image {
     width: 100%;
     height: 600px;
@@ -115,10 +112,10 @@
 }
 .slider-about {
     position: absolute;
+    width: 790px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 3;
     font-family: 'Roboto', sans-serif;
     color: #ffff;
     text-transform: uppercase;
@@ -133,9 +130,10 @@
     line-height: 54px;
 }
 .collection {
-    margin-bottom: 100px;
+    width: 1110px;
+    margin: inherit;
+    padding-bottom: 100px;
 }
-
 .heading{
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -166,7 +164,6 @@
     left: 10px;
     top: 10px;
     opacity: 0;
-    
 }
 .product:hover .overlay {
     opacity: 0.949;
@@ -202,7 +199,6 @@ li .icon_clock:not(:nth-of-type(3n)) {
 .icon_basket:hover {
     background-color: #323232;
 }
-
 .icon_like {
     background-image: url(../img/button-like.png);
 }
@@ -221,8 +217,6 @@ li .icon_clock:not(:nth-of-type(3n)) {
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 10px;
-    
-    
 }
 .icon_basket_text {
     display: inline-block;
@@ -234,7 +228,6 @@ li .icon_clock:not(:nth-of-type(3n)) {
     font-weight: 400;
     font-size: 14px;
 }
-
 .product img {
     display: block;
     background-color:#E9F0FD;
@@ -280,22 +273,21 @@ li .icon_clock:not(:nth-of-type(3n)) {
 footer {
     height: 90px;
     background-color: #323232;
+    position: relative;
 }
 footer p {
-    display: inline-block;
-    position: 
-    top 50%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    transform: translate(-50% -50%);
+    position: absolute;
+    margin: 0;
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
     line-height: 28px;
-    color: white;
-    text-align: center;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-footer span {
+footer a {
+    text-decoration: none;
     color: #46bfa9;
 }
