@@ -19,7 +19,7 @@
 .main-navigation {
     display: flex;
     justify-content: space-between;
-    width: 490px;
+    /* width: 490px; */
 }
 .logo a {
     font-family: 'Montserrat', sans-serif;
@@ -31,6 +31,9 @@
 
 .main-navigation-item {
     list-style: none;
+}
+.main-navigation-item:not(:last-child) {
+    margin-right: 58px;
 }
 .main-navigation-item a { 
     text-decoration: none;
