@@ -19,7 +19,6 @@
 .main-navigation {
     display: flex;
     justify-content: space-between;
-    /* width: 490px; */
 }
 .logo a {
     font-family: 'Montserrat', sans-serif;
