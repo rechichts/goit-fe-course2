@@ -93,7 +93,7 @@
     line-height: 74px;
     color: #222222;
 }
-.header-main span {
+.header-wrapper span {
     font-family: Merriweather, serif;
     font-weight: 400;
     display: block;
@@ -147,9 +147,9 @@
     line-height: 24px;
 }
 .contact {
-    background: url(../img/bcg-map.jpg);
+    background: url(../img/map2.png) #222222;
     object-fit: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     padding-bottom: 100px;
 }
