@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Montserrat/montserrat-v13-latin-regular.woff2') format('woff2'), 
+         url('../fonts/Montserrat/montserrat-v13-latin-regular.woff') format('woff'), 
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Montserrat/montserrat-v13-latin-700.woff2') format('woff2'), 
+         url('../fonts/Montserrat/montserrat-v13-latin-700.woff') format('woff'), 
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Roboto/roboto-v19-latin-300.woff2') format('woff2'), 
+         url('../fonts/Roboto/roboto-v19-latin-300.woff2') format('woff'), 
+}
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto/roboto-v19-latin-regular.woff2') format('woff2'), 
+         url('../fonts/Roboto/roboto-v19-latin-regular.woff') format('woff'), 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+.login-menu li {
+    list-style: none;
+}
+.button {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    width: 280px;
+    border-radius: 40px;
+    text-align: center;
+}
+header {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff;
+    z-index: 10;
+    text-align: center;
+    background-color: yellow; 
+}
+.login-menu {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+.login-menu-item {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    border-radius: 36px;
+    background-color: transparent;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.log-in:hover, .sign-up:hover {
+    padding: 11px 18px;
+    border: 2px solid #fff;
+    transition: 200ms;
+    transition-timing-function: linear;  
+}
+
+.log-in {
+
+}
+.sing-up {
+
+}
+
+
