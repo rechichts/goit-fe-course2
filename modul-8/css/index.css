@@ -39,9 +39,9 @@
     width: 320px;
     margin: 0 auto;
 }
-.login-menu li {
+/* .login-menu li {
     list-style: none;
-}
+} */
 .button {
     margin: 0 auto;
     font-family: 'Montserrat';
@@ -69,7 +69,6 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 120px;
-
 }
 .login-menu-item {
     font-family: 'Montserrat';
