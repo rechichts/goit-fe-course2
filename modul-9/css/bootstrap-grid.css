@@ -41,11 +41,11 @@ html {
   }
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
-} */
+}
 
 .container-fluid {
   width: 100%;
@@ -3717,3 +3717,4 @@ html {
   }
 }
 /*# sourceMappingURL=bootstrap-grid.css.map */
+
