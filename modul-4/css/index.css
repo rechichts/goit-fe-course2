@@ -1,24 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 .wrapper {
-    max-width: 1110px;
+    width: 1110px;
     margin: auto;
 }
-.page-header {
+/* .page-header {
 
-}
+} */
 .logo {
     text-decoration: none;
     float: left;
     font-size: 30px;
     text-transform: uppercase;
     color: #515151;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 .logo::first-letter {
     color: #1ABC9C;
+    font-weight: 900;
 }
 .menu {
     list-style: none;
@@ -26,6 +32,8 @@
     font-size: 14px;
     margin-top: 10px;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .menu li {
     float: left;
@@ -33,18 +41,76 @@
 }
 .menu a {
     text-decoration: none;
-    color: #1ABC9C;
+    color: #000000; 
 }
 .menu a:hover {
-    color: 
+    color: #1ABC9C;
 }
 .clearfix::after {
+    content: "";
+    clear: both; 
     display: table;
-    content: '';
-    clear: both;
+
 }
-.title {
+h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
     text-transform: uppercase;
     color: #515151;
     font-size: 48px;
+    margin-top: 110px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 160px;
+    height: 5px;
+    background-color: #1ABC9C;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.cataloge {
+    margin-top: 95px;
+}
+img {
+    width: 255px;
+    height: 285px;
+    background-color:#E9F0FD;
+}
+.product {
+    display: inline-block;
+    float: left;
+}
+.product:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+.product:not(:nth-last-child(-n+4)) {
+    margin-bottom: 30px;
+}
+.card {
+    margin-top: -7px;
+}
+h4 {
+    float: left;
+    padding: 15px;
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #323232;
+}
+.price {
+    float: left;
+    padding: 15px;
+    width: 55px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #959595;
+}
+.product:hover h4 {
+    background-color: #1abc9c;
 }
