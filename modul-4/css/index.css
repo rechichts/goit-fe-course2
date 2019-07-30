@@ -1,6 +1,11 @@
 
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
 * {
     margin: 0px;
     padding: 0px;
@@ -10,19 +15,27 @@
     width: 1110px;
     margin: auto;
 }
+<<<<<<< HEAD
 /* .page-header {
 
 } */
+=======
+.page-header {
+    padding-top: 40px;
+}
+.logotype {
+    float: left;
+}
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
 .logo {
     text-decoration: none;
-    float: left;
     font-size: 30px;
     text-transform: uppercase;
     color: #515151;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-.logo::first-letter {
+.logotype::first-letter {
     color: #1ABC9C;
     font-weight: 900;
 }
@@ -33,11 +46,19 @@
     margin-top: 10px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
     font-weight: 600;
+=======
+    font-weight: 700;
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
 }
+
 .menu li {
     float: left;
-    margin-left:35px;
+    margin-right:35px;
+}
+.menu li:nth-child(6) {
+    margin-right: 0px;
 }
 .menu a {
     text-decoration: none;
@@ -50,30 +71,46 @@
     content: "";
     clear: both; 
     display: table;
+<<<<<<< HEAD
 
 }
 h2 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-weight: normal;
+=======
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
     text-transform: uppercase;
     color: #515151;
     font-size: 48px;
     margin-top: 110px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
 h2::after {
     content: '';
     display: block;
     width: 160px;
     height: 5px;
     background-color: #1ABC9C;
+<<<<<<< HEAD
     margin: 0 auto;
     margin-top: 30px;
+=======
+    margin: 30px auto 0;
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
 }
 .cataloge {
     margin-top: 95px;
 }
+<<<<<<< HEAD
 img {
     width: 255px;
     height: 285px;
@@ -81,6 +118,13 @@ img {
 }
 .product {
     display: inline-block;
+=======
+.product img {
+    display: block;
+    background-color:#E9F0FD;
+}
+.product {
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
     float: left;
 }
 .product:not(:nth-child(4n)) {
@@ -89,17 +133,24 @@ img {
 .product:not(:nth-last-child(-n+4)) {
     margin-bottom: 30px;
 }
+<<<<<<< HEAD
 .card {
     margin-top: -7px;
 }
 h4 {
     float: left;
     padding: 15px;
+=======
+.product_item {
+    float: left;
+    padding: 10px;
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
     width: 200px;
     height: 40px;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 18px;
+<<<<<<< HEAD
     background-color: #323232;
 }
 .price {
@@ -113,4 +164,76 @@ h4 {
 }
 .product:hover h4 {
     background-color: #1abc9c;
+=======
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.price {
+    float: left;
+    padding: 10px;
+    width: 55px;
+    height: 40px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.44);
+}
+.card {
+    background-color: #323232;
+}
+.product:hover .card {
+    background-color: #1abc9c;
+}
+.blog {
+    margin-top: 80px;
+}
+.column {
+    float: left;
+    width: 350px;
+}
+.column:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+.title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #555252;
+}
+.title::after {
+    content: '';
+    display: block;
+    width: 135px;
+    height: 3px;
+    background-color: #1ABC9C;
+    margin-top: 15px;
+}
+p {
+    display: inline-block;
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555252;
+}
+.button {
+    display: block;
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid #4ec6ab;
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    background-color: #4ec6ab;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+.news {
+    padding-bottom: 40px;
+>>>>>>> c1451c36362457a73e8d4a8441ee454884db9710
 }
