@@ -1,0 +1,26 @@
+@media (max-width:800px) {
+    nav {
+       display: block;
+       text-align: center; 
+    }
+    .nav,
+    .footer {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .title {
+        font-size: 60px;
+    }
+    .subtitle {
+        font-size: 24px;
+    }
+    form {
+        max-width: 320px;
+        width:100%;
+        margin: 0 auto;
+    }
+    .logo {
+        margin-bottom: 30px;
+    }
+}
