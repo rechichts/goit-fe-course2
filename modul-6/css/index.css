@@ -175,6 +175,7 @@
     position: relative;
     background-color: #95e1d3;
     margin-bottom: 30px;
+    z-index: 2;
 }
 .team-item-bg:hover .team-item-hover {
     visibility: visible;
@@ -195,7 +196,7 @@
     left: 0px;
     bottom: 0px;
     right: 0px;
-    z-index: 1;
+    z-index: 2;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
