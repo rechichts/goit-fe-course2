@@ -1,0 +1,108 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+*::before, *::after {-webkit-box-sizing: inherit;box-sizing: inherit}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner {
+    height: 1000px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9))), url(../img/bg-min.jpg);
+    background: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bg-min.jpg);
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/bg-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner__header {
+    text-align: center;
+    padding: 0 400px; 
+    color: #fff;
+    padding-bottom: 94px;
+}
+.banner__main {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner__span {
+    display: block;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    text-transform: none;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.logo__link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    vertical-align: center;
+}
+.main-navigation__link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-navigation__item:not(:last-child) {
+    margin-right: 58px;
+}
+
+.main-navigation__item:nth-child(6) {
+    margin-right: 35px;
+}
+.main-navigation__item::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #fce38a;
+    margin: 10px auto 0;
+    opacity: 0;
+}
+.main-navigation__link:hover {
+    color: #fce38a;;
+    transition: 200ms;
+    transition-timing-function: linear;  
+}
+.main-navigation__item:hover::after {
+    opacity: 1;
+    transition: 200ms;
+    transition-timing-function: linear;  
+}
+

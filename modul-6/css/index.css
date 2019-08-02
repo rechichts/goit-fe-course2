@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .logo a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -42,7 +43,7 @@
     color: #95e1d3;
     text-transform: uppercase;
 }
-.main-navigation-item::after {
+.main-navigation-item:::after {
     content: '';
     display: block;
     width: 50px;
