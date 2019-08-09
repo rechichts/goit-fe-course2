@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 65px;
+  border-top: 1px so  id #e7e7e7;
+  font-family: $font-family-first;
+  font-weight: 400;
+  font-size: $main-font-size;
+  color: #333333;
+}
+
+.developer {
+  text-decoration: none;
+  color: $secondary-bg-color;
+}

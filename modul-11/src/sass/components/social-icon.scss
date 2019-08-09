@@ -1,0 +1,43 @@
+.social-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $main-bg-color;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  
+  &:not(:last-child) {
+    border-right: 1px solid rgba(243, 129, 129, 0.5);
+  }
+
+  &:hover {
+    background-color: $secondary-bg-color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;  
+  }
+}
+
+.social-icon a {
+  display: block;
+  width: 56px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social-icon__svg {
+  fill: $secondary-bg-color;
+
+  &:hover {
+    fill: $main-font-color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;  
+  }
+}
+
