@@ -405,7 +405,7 @@ img {
 
 .banner {
   height: 1000px;
-  background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(/modul-11/build/images/bg-min.jpg);
+  background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(/images/bg-min.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
